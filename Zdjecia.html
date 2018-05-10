@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+  <title>Zdjecia</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <nav class="light-pink lighten-2" role="navigation">
+    <div class="nav-wrapper container">Zdjecia<a id="logo-container" href="#" class="brand-logo"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Zdjecia.html">Przeslij Zdjecia</a> </li>
+        <li><a href="Transakcje.html">Transakcje</a> </li>
+        <li><a href="Ustawienia.html">Ustawienia</a> </li>
+        <li><a href="Regulamin.html">Regulamin</a> </li>          
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Zdjecia.html">Przeslij Zdjecia</a> </li>
+        <li><a href="Transakcje.html">Transakcje</a> </li>
+        <li><a href="Ustawienia.html">Ustawienia</a> </li>
+        <li><a href="Regulamin.html">Regulamin</a> </li>    
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center orange-text">Tutaj mozesz udostepnic swoje zdjecia</h1>
+ <label>Wybierz</label>
+  <select class="browser-default">
+    <option value="" disabled selected>Wybierz Kategorie Zdjecia</option>
+    <option value="1">Natura</option>
+    <option value="2">Portret</option>
+    <option value="3">Krajobraz</option>
+    <option value="4">Psy</option>
+  </select>
+  <form action="#">
+    <div class="file-field input-field">
+      <div class="btn">
+        <span>Plik</span>
+        <input type="file" multiple>
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text" placeholder="Dodaj jedno lub wiecej zdjec.">
+      </div>
+    </div>
+  </form>
+  </div>
+    </div>
+
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
